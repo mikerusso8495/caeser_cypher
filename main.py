@@ -44,33 +44,3 @@ while cont:
     if more == "no":
         cont = False
         print("Goodbye.")
-
-
-
-
-
-
-
-# OLD CODE BEFORE CONSOLIDATION
-# def encode(text, shift):
-#     cypher_text = ""
-#     for char in text:
-#         position = alphabet.index(char)
-#         new_position = position + shift
-#         cypher_text += alphabet[new_position]
-#     print(f"The encoded text is {cypher_text}.")
-#
-#
-# def decode(text, shift):
-#     cypher_text = ""
-#     for char in text:
-#         position = alphabet.index(char)
-#         new_position = position - shift
-#         cypher_text += alphabet[new_position]
-#     print(f"The decoded text is {cypher_text}.")
-#
-#
-# if direction == "encode":
-#     encode(text, shift)
-# elif direction == "decode":
-#     decode(text, shift)
